@@ -51,7 +51,6 @@ def main():
     else:
         print('Game draw')
 
-
 ###############################################
 #    FUNCTION TO RETURN GAME STATUS
 #    1 FOR GAME IS OVER WITH RESULT
@@ -81,13 +80,10 @@ def game_status():
     else:
         return -1
 
-
-
 ###############################################
 #    FUNCTION TO DRAW BOARD
 #    OF TIC TAC TOE WITH PLAYERS MARK
 ###############################################
-
 
 def board():
     print('\n\n\tTic Tac Toe\n\n')
@@ -111,4 +107,3 @@ def board():
     print('    |     |     ' )
 
 main()
-
